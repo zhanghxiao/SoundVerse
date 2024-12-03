@@ -174,7 +174,7 @@ export default function Player() {
       )}
       
       
-    <div className={`fixed left-0 right-0 bg-zinc-900 border-t border-zinc-800 z-50 transition-all duration-300 z-40 ${
+    <div className={`fixed left-0 right-0 bg-zinc-900 border-t border-zinc-800 z-50 transition-all duration-300 z-60 ${
       isMobile ? 'bottom-20' : 'bottom-0'
     }`}>
         <audio
