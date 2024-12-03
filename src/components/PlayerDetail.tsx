@@ -171,7 +171,7 @@ export default function PlayerDetail({ onClose, audioRef }: PlayerDetailProps) {
   const progress = audioRef.current ? (currentTime / audioRef.current.duration) * 100 : 0;
 
   return (
-    <div className="fixed inset-0 bg-black/95 z-50 flex flex-col items-center justify-center p-8">
+    <div className="fixed inset-0 bg-black/95 z-50 flex flex-col items-center justify-center p-8 z-60">
       <div className="w-full max-w-2xl">
         {/* Header */}
         <div className="flex justify-between items-center mb-8">
