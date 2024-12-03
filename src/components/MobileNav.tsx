@@ -39,7 +39,7 @@ export default function MobileNav({
   };
 
   return (
-    <div className="fixed bottom-0 left-0 right-0 bg-gradient-to-t from-black/95 to-black/90 backdrop-blur-lg border-t border-white/10">
+    <div className="fixed bottom-0 left-0 right-0 bg-gradient-to-t from-black/95 to-black/90 backdrop-blur-lg border-t border-white/10 z-30">
       <nav className="max-w-lg mx-auto px-4 py-2">
         <ul className="flex items-center justify-around">
           <li>
